@@ -13,7 +13,14 @@ require_once('Transcendent/application.php');
 /**
  * Example Two
  */
-$app = new World;
-echo $app::sumTwoNumber(10,20);
+// $app = new World;
+// echo $app::sumTwoNumber(10,20);
+// echo "\n";
+// echo $app::sumTwoNumber();
+
+/**
+ * Example Three ( Class With Namespace )
+ */
+new Transcendent\Support\Intermediate\OldService\Product();
 echo "\n";
-echo $app::sumTwoNumber();
+new \Transcendent\Support\Intermediate\NewService\Product();
