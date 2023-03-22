@@ -1,6 +1,19 @@
 <?php 
+/**
+ * Entry Point Of Application
+ */
+require_once('Transcendent/application.php');
 
-require_once('Transcendent/Hello.php');
+/**
+ * Example One
+ */
+// $app = new Hello;
+// echo $app::sayHello('Tari');
 
-$app = new Hello;
-echo $app::sayHello('Tari');
+/**
+ * Example Two
+ */
+$app = new World;
+echo $app::sumTwoNumber(10,20);
+echo "\n";
+echo $app::sumTwoNumber();
